@@ -1,0 +1,104 @@
+<!--Name: Ethan EG -->
+<!--Date: 2025-01-21 -->
+<!--File: inspiration.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ethan EG">
+    <title>The Positives</title>
+</head>
+<body class="gradient-body">
+    <header>
+        <nav>
+            <a href="index.html" class="header-links" id="earth-link">Back To Earth</a>
+            <h2>-</h2>
+            <a href="bad.html" class="header-links" id="bad-link">The Bad</a>
+        </nav>
+    </header>
+    <main>
+        <h1>What Positives Are There?</h1>
+        <div class="good-pictures">
+            <img src="images/solarpanels.jpg" alt="solar panels" width="400">
+            <img src="images/windmills.jpg" alt="windmills" width="400">
+        </div>
+        <div class="good-headers-div">
+            <h3>Current <b>Good</b> Solutions</h3>
+            <h3>What The <B>Future</B> Holds</h3>
+        </div>
+        <div class="good-div1">
+            <div class="good-div1-left">
+                <p>Although it was previously mentioned that there are a lot of fake solutions that exist… On the contrary there are also a lot of great solutions being implemented around the world.</p>
+                <br><br>
+                <p><b>Some of the most notable solutions we can see being implemented today are :</b></p>
+                <ol>
+                    <li>The transition to renewable energy instead of fossil fuels. Many of the rich countries around the  world have invested heavily into the green energy and some even aim to be using 
+                        purely renewable energy come the next 2 or 3 decades. It must be noted however that these solutions are very expensive and are ironically usually largely funded by selling fossil 
+                        fuels to other countries (Norway or any of the rich Arab oil nations are prime examples) which creates a paradox. </li>
+                    <li>Energy efficient improvements in all our technologies. Whether it be our lights (the transition to LED’s) or more efficient batteries.</li>
+                    <li>Reforestation efforts are increasingly popular as awareness spreads regarding the capacity of tree’s to intake carbon dioxide. Although unfortunately many reforestation projects 
+                        are not planned carefully and do not permit ecosystems to flourish afterwards (summed up: planting one kind of tree everywhere does not provide appropriate biodiversity and will 
+                        typically create a canopy shielding the ground from sunlight which will in turn prevent bushes and other greenery, <i>which is the bottom of the food chain</i>, to grow on the forest 
+                        floor).</li>
+                    <li>Electrical vehicles are expected to completely phase out combustion engines by mid-century in many places. As well, since cars are estimated to contribute for around 10% of global 
+                        emissions, this solution is one of the most promising.</li>
+                </ol>
+            </div>
+            <div class="good-div1-right">
+                <p>When it comes to <i>future technologies</i> aimed at mitigating climate change, there is a lot of hope. Although funding in these fields can usually be underwhelming, work is still 
+                    being done by certain groups. More importantly, the consequences of our ignorance and carelessness are being felt harshly in certain locations. Volatile climates are becoming an extreme 
+                    concern for many nations, with a ridiculous increase in floodings, violent storms, and hot weather. However, there is some good in this. The repercussions of these events heavily 
+                    encourage certain governments to fund and promote solutions/activism towards fighting climate change. </p>
+                <br><br>
+                <p><b>A few notable examples of potential high impact technologies to come are:</b></p>
+                <ol>
+                    <li>Direct Air Capture (DAC), which removes C02 from the atmosphere and stores it someway, almost exactly like a tree would.</li>
+                    <li>Transparent wood, a new material being researched which comes mostly from “balsa” trees and hopes to replace glass. This material has high potential as it’s also a strong insulator 
+                        and is completely renewable.</li>
+                    <li>Harvesting of wave and/or tidal energy. Although some previous efforts were a failure in these fields, new efforts are starting again and look very promising.</li>
+                </ol>
+                <br><br>
+                <p>As well, as the world becomes more connected (thanks to the world wide web) and educated thanks to a continuous development worldwide in our education systems (especially in developing 
+                    countries), humans on the individual level will hopefully also start spreading more awareness and taking precautions to reduce their net c02 emissions.</p>
+            </div>
+        </div>
+        <div class="good-div2">
+            <p>Get some inspirational quotes regarding global warming!</p>
+            <br>
+            <button id="quote-btn" onclick="generateQuote()">NEW Inspiration</button>
+            <br>
+            <p id="quote"></p>
+        </div>
+    </main>
+    <footer>
+        <h3 id="footer-credits">Website Created by:<br> Ethan Egerton-Graham</h3>
+        <div class="footer-div">
+            <h4 id="footer-slogon">Be the change you want to see in the world.</h4>
+            <a href="https://www.canadahelps.org/en/donate-to-environmental-charities-giving-back-to-the-planet/" target="_blank" id="charity-link">Help here</a>
+        </div>
+        <img src="images/tree-grow.gif" alt="growing tree gif" id="footer-tree-gif">
+    </footer>
+    <script>
+        window.addEventListener('load', () => {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('hidden');
+        });
+        
+        window.addEventListener('beforeunload', () => {
+            document.body.classList.add('hidden');
+        });
+    </script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

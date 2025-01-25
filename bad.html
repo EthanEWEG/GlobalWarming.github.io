@@ -1,0 +1,92 @@
+<!--Name: Ethan EG -->
+<!--Date: 2025-01-21 -->
+<!--File: growth.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="Styles/reset.css">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ethan EG">
+    <title>The Bad</title>
+</head>
+<body class="gradient-body">
+    <header>
+        <nav>
+            <a href="index.html" class="header-links" id="earth-link">Back To Earth</a>
+            <h2>-</h2>
+            <a href="good.html" class="header-links" id="positive-link">The Positives</a>
+        </nav>
+    </header>
+    <main>
+        <h1>How Bad Is Global Warming In 2025?</h1>
+        <div class="bad-div-examples">
+            <div class="bad-div-floods">
+                <h3><span class="underline-text">Floods</span> &rarr;</h3>
+                <img src="images/flood.jpg" alt="floods" height="400" class="bad-images">
+            </div>
+            <div class="bad-div-forestfires">
+                <img src="images/forestfire.jpg" alt="forest fires" height="400" class="bad-images">
+                <h3>&larr; <span class="underline-text">Forest Fires</span></h3>
+            </div>
+            <div class="bad-div-icebergs">
+                <h3><span class="underline-text">Melting Ice Caps</span> &rarr;</h3>
+                <img src="images/iceberg.jpg" alt="iceberg" height="400" class="bad-images">
+            </div>
+            <div class="bad-div-heat">
+                <img src="images/deadtree.jpg" alt="rising temperatures" height="400" class="bad-images">
+                <h3>&larr; <span class="underline-text">Rising Temps</span></h3>
+            </div>
+        </div>
+        <div class="bad-div1">
+            <p>The examples above are just a glance into some of the repercussions we are currently facing due to climate change.</p>
+            <br><br>
+            <ul>
+                <li>The drastic increase in <b>floodings</b> is caused in large part due to the warmer temperatures which hold more moisture in the atmosphere. This in-turn causes more intense rainfalls. 
+                    Every degree Fahrenheit rise in temperature results in potentially 4% more water vapor in the air per some estimates.</li>
+                <li>Although <b>Forest fires</b> are a part of the natural life cycle of a forest, recent increases in forest fires have been detrimental to many regions due to the destruction they bring. 
+                    As global warming continues to increase, so will <b>forest fires</b>, which will continue to displace and destroy certain regions.</li>
+                <li>The melting <b>Ice caps</b> in the north and south poles due to the heating atmosphere are rising sea levels around the world. This is catastrophic for many cities and ecosystems that 
+                    are already close or at sea level (especially the ecosystems that were dependant <i>ON</i> the ice caps like polar bears).</li>
+                <li>The rapid heating of the earth due to <b>rising temperatures</b> from continuously growing c02 emissions clearly causes lots of other problems. However the heating of our atmosphere 
+                    itself is a huge problem. Droughts will (and already are) going to become much more common in certain regions.</li>
+            </ul>
+            <br><br>
+            <p>Many countries are now being forced to potentially take corrective action against the effects of global warming, such as building huge dams deep in the ocean to prevent increasing water 
+                levels. The Netherlands is most notable for this, with all their major cities directly at sea level, have proposed a mega dam out in the ocean to prevent the loss of their cities. This 
+                would be one of, if not the, largest civil engineering challenge ever undertaken and would cost between 250-500 billion euros.</p>
+            <br><br>
+                <p>More and more investment will have to be put into corrective measures as global warming intensifies. Drinking water sources are drying up everywhere and this alone will cause significant 
+                economic, social, and environmental impacts. Whether it be food loss, mass migration and conflict, or complete collapse of certain ecosystems and species… <i>Soon we will be asking 
+                ourselves why we never started taking stronger preventative measures sooner.</i></p>
+        </div>
+    </main>
+    <footer>
+        <h3 id="footer-credits">Website Created by:<br> Ethan Egerton-Graham</h3>
+        <div class="footer-div">
+            <h4 id="footer-slogon">Be the change you want to see in the world.</h4>
+            <a href="https://www.canadahelps.org/en/donate-to-environmental-charities-giving-back-to-the-planet/" target="_blank" id="charity-link">Help here</a>
+        </div>
+        <img src="images/tree-grow.gif" alt="growing tree gif" id="footer-tree-gif">
+    </footer>
+    <script>
+        window.addEventListener('load', () => {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('hidden');
+        });
+        
+        window.addEventListener('beforeunload', () => {
+            document.body.classList.add('hidden');
+        });
+    </script>
+</body>
+</html>

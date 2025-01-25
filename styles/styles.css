@@ -1,0 +1,240 @@
+/* Name: Ethan EG */
+/* Date: 2025-01-21 */
+/* File: Stylesheet.css */
+
+/* body */
+body{
+    background: black;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+body.loaded {
+    opacity: 1;
+}
+body.hidden{
+    opacity: 0;
+}
+
+/* header */
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(41, 75, 31);
+    height: 10vh;
+    min-height: 80px;
+}
+.header-links, h2{
+    font-family: Roboto;
+    margin-left:25px;
+    margin-right:25px;
+    display: inline;
+    user-select: none;
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(211, 211, 211); 
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.8);
+}
+#bad-link:hover{
+    color: rgb(255, 115, 0);
+    text-shadow: 0 0 10px   rgba(255, 5, 5, 0.8), 0 0 20px rgba(255, 0, 0, 0.6), 0 0 30px rgba(255, 0, 0, 0.8);
+}
+#positive-link:hover{
+    color: rgb(0, 238, 255);
+    text-shadow: 0 0 10px   rgba(5, 134, 255, 0.8), 0 0 20px rgba(5, 134, 255, 0.8), 0 0 30px rgba(5, 134, 255, 0.8);
+}
+#earth-link:hover{
+    color: rgb(64, 255, 0);
+    text-shadow: 0 0 10px   rgba(2, 126, 0, 0.8), 0 0 20px rgba(3, 187, 0, 0.8), 0 0 30px rgba(3, 198, 0, 0.8);
+}
+
+/* footer */
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 78, 126);
+    height: 15vh;
+    min-height: 100px;
+    position: relative;
+}
+.footer-div{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+#footer-credits, #footer-slogon, #charity-link{
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(211, 211, 211);
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.8);
+    justify-content: left;
+}
+#charity-link:hover{
+    color: rgb(64, 255, 0);
+    text-shadow: 0 0 10px   rgba(2, 126, 0, 0.8), 0 0 20px rgba(3, 187, 0, 0.8), 0 0 30px rgba(3, 198, 0, 0.8);
+}
+#footer-credits{
+    position: absolute;
+    left:5px;
+    bottom:5px;
+}
+#footer-tree-gif{
+    position: absolute;
+    right: 10px;
+    width: 7%;
+}
+
+/* Main */
+h1{
+    padding-top:20px;
+    color:white;
+    text-align: center;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:45px;
+    font-family: Merriweather;
+}
+p{
+    color:white;
+    font-family: Merriweather;
+    font-size: 20px;
+}
+ul, ol{
+    font-size: 20px;
+    font-family: Merriweather;
+    color:white;
+}
+h3{
+    font-family: Merriweather;
+    font-size: 30px;
+    color: white;
+    display: inline;
+}
+ol li, ul oi {
+    padding-bottom: 50px;
+}
+
+/* index */
+.index-div1{
+    padding-top: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -110px;
+}
+#spinning-earth{
+    width:auto;
+    height:45vh;
+    margin-left:-100px;
+}
+.index-div1 p{
+    margin-right:150px;
+    margin-left:-150px;
+}
+.index-div2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#growing-tree{
+    width:auto;
+    height:65vh;
+}
+.index-div2 p{
+    margin-left:150px;
+}
+.index-div3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+.index-div3 ul{
+    margin-left:150px;
+    margin-right:150px;
+}
+.index-div3 h4{
+    font-size: 35px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+/* good */
+.gradient-body{
+    background: radial-gradient(circle, #502d21, #000000);
+}
+.good-pictures{
+    display:flex;
+    justify-content: center;
+    padding-top:15px;
+    padding-bottom:50px;
+    gap:5%;
+}
+.good-headers-div{
+    display:flex;
+    justify-content: center;
+    gap: 20%;
+}
+.good-div1{
+    display:flex;
+    gap: 5%;
+    padding-top:20px;
+    padding-right:100px;
+    padding-left:100px;
+}
+.good-div1 *{
+    flex: 1;
+}
+.good-div2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; 
+    padding-right:100px;
+    padding-left:100px;
+}
+#quote-btn{
+    padding: 15px;
+    flex-shrink: 0;
+    width:20%;
+    height:20%;
+    color:black;
+    font-size: 25px;
+    box-shadow: 0 0 10px white;
+}
+
+/* bad */
+.bad-images{
+    border-radius:5px;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%);
+    mask-composite: intersect;
+}
+.bad-div-examples{
+    padding-top: 40px;
+    padding-left:160px;
+    padding-right:160px;
+    padding-bottom: 200px;
+}
+.bad-div-examples > div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bad-div-examples > div h3{
+    font-size:50px;
+    text-align: center;
+    flex: 1;
+}
+.bad-div-examples > div h3 .underline-text{
+    text-decoration: underline;
+}
+.bad-div1{
+    padding-left:200px;
+    padding-right:200px;
+    padding-bottom:200px;
+}

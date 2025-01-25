@@ -1,0 +1,76 @@
+<!--Name: Ethan EG -->
+<!--Date: 2025-01-21 -->
+<!--File: index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ethan EG">
+    <title>Earth</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="good.html" class="header-links" id="positive-link">The Positives</a>
+            <h2>-</h2>
+            <a href="bad.html" class="header-links" id="bad-link">The Bad</a>
+        </nav>
+    </header>
+    <main>
+        <h1><b>The Global Warming Catastrophe</b></h1>
+        <div class="index-div1">
+            <img src="images/earth.gif" alt="spinning earth" id="spinning-earth">
+            <p>Almost everyone has heard of climate change. It's a continuously evolving challenge we are facing around the world. Rising temperatures and 
+                earth’s increasing volatile climates have been key indicators for the ongoing shifts. The worst is only yet to come, yet no extensive efforts 
+                have been made in reducing the main culprits behind greenhouse gas emissions. </p>
+        </div>
+        <div class="index-div2">
+            <p>Greenhouse gas emissions are <b>still</b> on the rise globally. In fact, even if emissions were to flatline <b>today</b> it wouldn’t even be 
+                close to enough to prevent or slowdown the increase of volatile climates. The <strong>real solutions</strong> to start <b>reducing</b> c02 
+                emissions require too much of a sacrifice for our quality and comfort that we’d rather let our world burn (sometimes quite literally). As 
+                the problem has become more and more mainstream fake solutions have become more and more popular as well, often in the form of “greenwashing”.</p>
+            <img src="images/growth.gif" alt="growing tree" id="growing-tree">
+        </div>
+        <div class="index-div3">
+            <h4>Two notable examples of fake solutions are:</h4>
+            <ul>
+                <li>Highly processed foods, wrapped in single use plastic, and packaged in single use cardboard boxes are placing "green" labels on their products such 
+                    as “made with reusable plastics”. Which in reality is the complete wrong approach to getting rid of plastics </li>
+                <li>Canada telling their citizens to recycle but then actually shipping the waste to another country (usually China, Indonesia, or the Philippines) 
+                    so they don’t have to build their own infrastructure to deal with the waste or face any consequences for dumping the garbage. </li>
+            </ul>
+            <br><br>
+            <p>Although there are MANY other examples...</p>
+        </div>
+    </main>
+    <footer>
+        <h3 id="footer-credits">Website Created by:<br> Ethan Egerton-Graham</h3>
+        <div class="footer-div">
+            <h4 id="footer-slogon">Be the change you want to see in the world.</h4>
+            <a href="https://www.canadahelps.org/en/donate-to-environmental-charities-giving-back-to-the-planet/" target="_blank" id="charity-link">Help here</a>
+        </div>
+        <img src="images/tree-grow.gif" alt="footer growing tree gif" id="footer-tree-gif">
+    </footer>
+    <script>
+        window.addEventListener('load', () => {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('hidden');
+        });
+        
+        window.addEventListener('beforeunload', () => {
+            document.body.classList.add('hidden');
+        });
+    </script>
+</body>
+</html>
